@@ -1,6 +1,6 @@
 import unittest
 
-import python_import_yacar
+from src import python_import_yacar
 
 class TestHelloWorld(unittest.TestCase):
     def test_hello_world(self):
